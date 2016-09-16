@@ -1,0 +1,183 @@
+body {
+	background-color: black;
+	background-image: url(img/background.png);
+	background-repeat: repeat-y;
+}
+
+.box{
+  width:98%;
+  height:2120px;
+  float:left;
+  background-color:white; 
+  margin:70px 15px 30px 15px;
+  border-radius:5px;
+}
+
+.box .h3{
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight:normal;
+  text-align:center;
+  padding-top:60px;
+  color:#000;
+  padding:80px 40px 30px 40px;
+}
+.box3{
+  background-color: #9EEBA1;
+}
+
+.box4{
+  width:100%;
+  height:1800px;
+  padding:10px 10px;
+  border-radius:5px;
+  background-color: #d8d8d8;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;  
+}
+
+.box5{
+  width:100%;
+  height:1800px;
+  padding:10px 10px;
+  border-radius:5px;
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.shadow1, .shadow2, .shadow3,.shadow4,.shadow5,.shadow6,.shadow7,.shadow8{
+  position:relative;
+}
+.shadow1,.shadow2,.shadow3,.shadow4,.shadow5,.shadow6,.shadow7,.shadow8{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow1 h3, .shadow2 h3, .shadow3 h3, .shadow4 h3, .shadow5 h3, .shadow6 h3, .shadow7 h3, .shadow8 h3{
+  width:87%;
+  height:600px;
+  margin-left:6%;
+  border:2px dashed #F7EEEE;
+  border-radius:5px;
+}
+.shadow3:before, .shadow3:after{
+  content:"";
+  position:absolute;
+  bottom:0;top:2px;left:15px;right:15px;
+  z-index:-1;
+  border-radius:100px/30px;
+ -webkit-box-shadow:0 0 30px 2px #479F41;
+  -moz-box-shadow:0 0 30px 2px #479F41;
+  box-shadow: 0 0 30px 2px #479F41;
+}
+
+#title {
+	background-image: url(img/vote.png);
+	z-index: 99;
+	width: 606px;
+	height: 162px;
+	position: absolute;
+}
+
+#menu {
+	background-image: url(img/menu.png);
+	width: 957px;
+	height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.disneyGroupPhoto {
+	background-image: url(img/disneyGroupPhoto.png);
+	z-index: 99;
+	width: 800px;
+	height: 245px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.imgBorder {
+	width: 100%;
+	height: 200px;
+}
+
+.charNameBorder {
+	width: 90%;
+	height: 40px;
+	text-align: left;
+	color: #daa520;
+}
+
+.charName {
+	margin-left: 10px;
+	width:100%
+}
+
+.charDesc {
+	color: #535353;
+	text-align: justify;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 90%;
+	height: 100px;
+	padding-top:10px;
+}
+
+.charStats {
+	border-top: 1px solid gray;
+	width: 90%;	
+	height: 50px;	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	text-align: left;
+	color: #535353;
+	padding-top:10px;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.button1 {font-size: 12px;}
+
+.btn-default {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;	
+}
+
+#label1, #label2, #label3, #label4, #label5, #label6, #label7, #label8, #label9, #label10, #label11, #label12 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;		
+	font-weight: bold;
+	color: #535353;	
+}
+
+.aboutSectionTitle {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px 5px;
+	border: 1px solid #00934b;
+  border-radius:10px/10px;
+ -webkit-box-shadow:0 0 5px 2px #bbffde;
+  -moz-box-shadow:0 0 5px 2px #bbffde;
+  box-shadow: 0 0 5px 2px #bbffde;	
+  background-color: #e1fff0;
+}
